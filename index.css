@@ -164,7 +164,7 @@ transform: scale(1.05);
  line-height: 30px;
 }
 #result{
-    position:absolute;
+    position:relative;
     margin:20px 0px;
     color: #fff;
 }
