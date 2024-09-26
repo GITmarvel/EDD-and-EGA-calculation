@@ -105,7 +105,7 @@ main p{
     margin: 10px;
 }
 #secondbtn{
-    position: absolute;
+    position: relative;
     text-decoration: none;
     border-bottom: 2px solid #777;
     bottom: 30px;
