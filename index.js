@@ -1,5 +1,6 @@
 let input = document.getElementById('theday');
 function calcEdd(){
+  let input = document.getElementById('theday');
   if (input.value !== "") {
   let input = document.getElementById('theday');
   let d = new Date(input.value);
