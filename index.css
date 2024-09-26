@@ -165,7 +165,6 @@ transform: scale(1.05);
 }
 #result{
     position:absolute;
-    bottom:30px;
     margin:20px 0px;
     color: #fff;
 }
