@@ -165,7 +165,7 @@ transform: scale(1.05);
 }
 #result{
     position:absolute;
-    bottom:30px;
+    bottom:50px;
     color: #fff;
 }
 .attribution{
