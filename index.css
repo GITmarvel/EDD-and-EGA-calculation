@@ -165,6 +165,7 @@ transform: scale(1.05);
  line-height: 30px;
 }
 #result{
+    position:relative;
     color: #fff;
 }
 .attribution{
