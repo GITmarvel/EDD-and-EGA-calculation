@@ -164,7 +164,8 @@ transform: scale(1.05);
  line-height: 30px;
 }
 #result{
-    position:relative;
+    position:absolute;
+    bottom:30px;
     color: #fff;
 }
 .attribution{
