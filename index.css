@@ -108,7 +108,7 @@ main p{
     position: relative;
     text-decoration: none;
     border-bottom: 2px solid #777;
-    bottom: 30px;
+    bottom: 0px;
     margin: 5px 0px;
     padding: 2px 12px;
     color: #fff;
