@@ -181,15 +181,16 @@ transform: scale(1.05);
   text-align: center;
   font-family: "Montserrat", sans-serif;
     }
-.attribution a{
-color: #777;
-letter-spacing: 2px;
-text-decoration: none;
-}
-.attribution a img{
-  position: absolute;
-  max-width: 20px;
-}
+ .attribution a{
+     color: #777;
+     letter-spacing: 2px;
+     text-decoration: none;
+     margin: 0px 15px;
+      }
+      .attribution a img{
+      	position: absolute;
+      	max-width: 20px;
+      }
 @media only screen and (max-width:500px){
 main{
     padding: 0px 30px;
