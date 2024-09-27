@@ -20,9 +20,7 @@ function calcEdd(){
   let gaNumber = Math.floor(actual); 
   let convert = actual.toString();
   let remainder = gestationalage % 7;
-  console.log(gestationalage)
-  console.log(actual);
-  console.log(remainder)
+ 
 
   //for the estimated delivery date
   let month = d.setMonth(d.getMonth() + 9);
