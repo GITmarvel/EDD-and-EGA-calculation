@@ -24,7 +24,7 @@ function calcEdd(){
 
   //for the estimated delivery date
   let month = d.setMonth(d.getMonth() + 9);
-  let date = d.setDate(d.getDate() + 8);
+  let date = d.setDate(d.getDate() + 7);
   let alter = d.toISOString().split('T')[0];
   let result = document.createElement("p");
   result.textContent = `Your estimated delivery Date is ${alter} with an expected gestational age of ${gaNumber} weeks and ${remainder} days. Note that the format of this result is Year/Month/day.`;
