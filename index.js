@@ -6,7 +6,7 @@ let input = document.getElementById('theday');
 
 function calcEdd() {
   if (input.value !== "") {
-    let d = new Date(input.value); // Retrieve the date from Flatpickr input
+    let d = new Date(input.value); 
 
     // Gestational age calculation
     let firstdate = new Date(d.getFullYear(), 0, 0);
@@ -22,10 +22,6 @@ function calcEdd() {
     let actual = gestationalage / 7;
     let gaNumber = Math.floor(actual);
     let remainder = gestationalage % 7;
-
-    console.log(gestationalage);
-    console.log(actual);
-    console.log(remainder);
 
     // Estimated delivery date calculation
     d.setMonth(d.getMonth() + 9);
