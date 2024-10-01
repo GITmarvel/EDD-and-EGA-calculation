@@ -72,12 +72,12 @@ main button{
     color: #fff;
     letter-spacing: 3px;
 }
-.line input::-webkit-calendar-picker-indicator{
+/*.line input::-webkit-calendar-picker-indicator{
     opacity: 0;
     display: block;
  position: absolute;
     width: 100%;
-}
+}*/
 .calicon{
     position: relative;
     width: 30px;
