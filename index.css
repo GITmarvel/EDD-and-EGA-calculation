@@ -233,9 +233,6 @@ text-align: center;
       width:100%;
       font-size: 1rem;
   }
-    .line input::placeholder{
-        font-size:20px;
-    }
   main #btn{
  padding: 18px;
  width: 150px;
