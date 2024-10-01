@@ -2,12 +2,10 @@ flatpickr("#theday", {
   dateFormat: "Y-m-d",  
 });
 
-let input = document.getElementById('theday');
-
 function calcEdd() {
   if (input.value !== "") {
-    let d = new Date(input.value); 
-
+    let input = document.getElementById('theday');
+    let d = new Date(input.value);
     // Gestational age calculation
     let firstdate = new Date(d.getFullYear(), 0, 0);
     let diff = d - firstdate;
