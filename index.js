@@ -1,3 +1,4 @@
+let input = document.getElementById('theday');
 flatpickr("#theday", {
   dateFormat: "Y-m-d",  
 });
