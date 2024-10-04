@@ -25,7 +25,7 @@ function calcEdd() {
 
     // Estimated delivery date calculation
     d.setMonth(d.getMonth() + 9);
-    d.setDate(d.getDate() + 6);
+    d.setDate(d.getDate() 6);
     let alter = d.toISOString().split('T')[0];
 
     // Display result
